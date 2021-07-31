@@ -52,6 +52,15 @@ class MainActivity : AppCompatActivity() {
     }
 
     private @Composable
+    fun ContenidoMostrarHimno(navController: Any, himno: Any) {
+
+    }
+
+    private fun rememberNavController(): Any {
+
+    }
+
+    private @Composable
     fun NavHost(navController: Any, startDestination: String, function: () -> Unit) {
 
     }
