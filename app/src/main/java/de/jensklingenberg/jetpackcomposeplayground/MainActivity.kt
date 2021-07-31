@@ -3,6 +3,7 @@ package de.jensklingenberg.jetpackcomposeplayground
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.runtime.Composable
 import de.jensklingenberg.jetpackcomposeplayground.mysamples.demo.DemoActivity
 
@@ -48,6 +49,11 @@ class MainActivity : AppCompatActivity() {
                 PantallaPorCoroLineas(navController = controller)
             }
         }
+    }
+
+    private @Composable
+    fun NavHost(navController: Any, startDestination: String, function: () -> Unit) {
+
     }
 
 }

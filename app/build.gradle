@@ -78,6 +78,7 @@ tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
 
 dependencies {
     implementation project(path: ':mysamples')
+    implementation 'androidx.compose.animation:animation:1.0.0-beta04'
     def compose_version = "1.0.0"
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
